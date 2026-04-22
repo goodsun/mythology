@@ -36,8 +36,8 @@ mythos/
 ├─ drafts/
 │   ├─ note-A-minimal.md             ← 案A: 最小限ガイド型
 │   ├─ note-B-chaptered.md           ← 案B: 章立て分離型（10幕）
-│   └─ note-C-companion.md           ← 案C: フル伴走型（読解ノート付き）
-├─ comparison.md                     ← 三案比較メモ
+│   ├─ note-C-companion.md           ← 案C: フル伴走型（読解ノート付き）
+│   └─ comparison.md                 ← 三案比較メモ
 └─ note-article.md                   ← 最終採用版（選定後に確定）
 ```
 
@@ -49,7 +49,7 @@ mythos/
 | `drafts/note-A-minimal.md` | 対話の呼吸を最大限残す方針。冒頭と末尾にのみ最小限のガイド |
 | `drafts/note-B-chaptered.md` | 10幕に分け、各幕頭に導入と転回点マークを配置 |
 | `drafts/note-C-companion.md` | 読者と並走する伴走ノート（背景・補助線・付記）を配置 |
-| `comparison.md` | 三案の読み味・向き不向きを5観点で評価 |
+| `drafts/comparison.md` | 三案の読み味・向き不向きを5観点で評価 |
 | `note-article.md` | 最終公開版（未作成） |
 
 ---
