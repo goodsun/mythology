@@ -29,6 +29,9 @@
 ```
 mythos/
 ├─ README.md                         ← このファイル
+├─ LICENSE                           ← CC BY-SA 4.0 ライセンス本文
+├─ NOTICE.md                         ← 著作者情報と帰属ガイド
+├─ LICENSE_RATIONALE.md              ← ライセンス選定の経緯と根拠
 ├─ original-dialogue.md              ← 対話の原典アーカイブ（無編集）
 ├─ drafts/
 │   ├─ note-A-minimal.md             ← 案A: 最小限ガイド型
@@ -67,9 +70,26 @@ mythos/
 
 ---
 
-## ライセンス・クレジット
+## ライセンス
 
-- 対話参加者：Goodsun、Claude (Anthropic)
+本作品は **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** の下で提供されます。
+
+[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+- 📜 [LICENSE](./LICENSE) — ライセンス本文
+- 📋 [NOTICE.md](./NOTICE.md) — 著作者情報と帰属ガイド（引用・翻案時のクレジット書式）
+- 💭 [LICENSE_RATIONALE.md](./LICENSE_RATIONALE.md) — なぜこのライセンスを選んだかの思想的経緯
+
+### ライセンスの要点
+
+- ✅ **改変・翻案OK** — 書き継いでください
+- ✅ **商用利用OK** — 閉じた財産にしないため
+- ⚠️ **クレジット保持必須（BY）** — 守破離の「離の中に溶けている師の型」を保証するため
+- ⚠️ **派生作品も同ライセンス（SA）** — 書き継ぎの余白を次の世代にも残すため
+
+## クレジット
+
+- 対話参加者：**Goodsun**、**Claude (Anthropic, claude-opus-4-7)**
 - 原典対話：2026-04-17
 - 対話の元ソース：https://claude.ai/share/502a8ed1-dcba-468d-881b-60856f46dc71
 
