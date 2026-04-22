@@ -29,7 +29,7 @@
 
 ## 対話の記録
 
-- **対話日**：2026年4月17日（金）20:06 – 20:40（JST）
+- **対話日**：2026年4月22日（水）08:06 – 08:40（JST）
 - **媒体**：claude.ai
 - **原典URL**：https://claude.ai/share/502a8ed1-dcba-468d-881b-60856f46dc71
 - **アーカイブ**：[`original-dialogue.md`](./original-dialogue.md)
@@ -60,7 +60,7 @@ Goodsun × Claude (Anthropic), 『八百万的pluralityの構図』(2026), CC BY
 
 ```
 Based on 『八百万的pluralityの構図』
-by Goodsun with Claude (Anthropic, claude-opus-4-7), 2026-04-17.
+by Goodsun with Claude (Anthropic, claude-opus-4-7), 2026-04-22.
 Licensed under CC BY-SA 4.0.
 Original: https://claude.ai/share/502a8ed1-dcba-468d-881b-60856f46dc71
 ```
@@ -69,7 +69,7 @@ Original: https://claude.ai/share/502a8ed1-dcba-468d-881b-60856f46dc71
 
 ```
 Based on "The Structure of Yaoyorozu-style Plurality"
-by Goodsun with Claude (Anthropic, claude-opus-4-7), April 17, 2026.
+by Goodsun with Claude (Anthropic, claude-opus-4-7), April 22, 2026.
 Licensed under CC BY-SA 4.0.
 ```
 
