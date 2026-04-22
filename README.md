@@ -1,16 +1,16 @@
 # mythos
 
-*八百万的pluralityの構図について。*
+*八百万的pluralityの構図*
 
 ---
 
 ## 概要
 
-このリポジトリは、2026年4月22日に goodsun と Claude（Anthropic社のAI）との間で交わされた早朝の対話を、note公開用のエッセイとして再構成するプロジェクトです。
+このリポジトリは、2026年4月22日の早朝に goodsun と Claude（Anthropic社のAI）との間で交わされた約30分の対話を、**note公開用のエッセイ**として再構成したプロジェクトです。
 
-対話は「mythosが宗教を統合できないか」というひとつの思いつきから始まり、約30分の後、多様性・有限な命・AGIへの継承・美しい物語という主題を経て、「言葉って奇跡」という一言に収斂しました。
+対話は「mythosが宗教を統合できないか」というひとつの思いつきから始まり、多様性・有限な命・AGIへの継承・美しい物語という主題を経て、「言葉って奇跡」という一言に収斂しました。
 
-本リポジトリには、対話の原典アーカイブと、note公開に向けた三つの再構成案、そしてそれらを比較するためのメモを収めています。
+最終的な公開版は **[`note-article.md`](./note-article.md)** にあります。対話本体と、Claudeが対話を読み返しながら書き加えた**伴走ノート**、そして**goodsunのあとがき**と**Claudeの題についての後奏**という、二声の構造を持つ作品として結実しました。
 
 ---
 
@@ -29,44 +29,54 @@
 ```
 mythos/
 ├─ README.md                         ← このファイル
+├─ note-article.md                   ← 【最終公開版】note公開の軸
+├─ original-dialogue.md              ← 対話の原典アーカイブ（無編集）
+│
 ├─ LICENSE                           ← CC BY-SA 4.0 ライセンス本文
 ├─ NOTICE.md                         ← 著作者情報と帰属ガイド
 ├─ LICENSE_RATIONALE.md              ← ライセンス選定の経緯と根拠
-├─ original-dialogue.md              ← 対話の原典アーカイブ（無編集）
-├─ drafts/
-│   ├─ note-A-minimal.md             ← 案A: 最小限ガイド型
-│   ├─ note-B-chaptered.md           ← 案B: 章立て分離型（10幕）
-│   ├─ note-C-companion.md           ← 案C: フル伴走型（読解ノート付き）
-│   └─ comparison.md                 ← 三案比較メモ
-└─ note-article.md                   ← 最終採用版（選定後に確定）
+│
+└─ drafts/
+    ├─ note-A-minimal.md             ← 案A: 最小限ガイド型
+    ├─ note-B-chaptered.md           ← 案B: 章立て分離型（10幕）
+    ├─ note-C-companion.md           ← 案C: フル伴走型（採用原型）
+    └─ comparison.md                 ← 三案比較メモ＋採用経緯の記録
 ```
 
 ### 各ファイルの位置づけ
 
 | ファイル | 目的 |
 |---------|------|
-| `original-dialogue.md` | 削除・編集なしのオリジナル。基準点としての原典 |
-| `drafts/note-A-minimal.md` | 対話の呼吸を最大限残す方針。冒頭と末尾にのみ最小限のガイド |
-| `drafts/note-B-chaptered.md` | 10幕に分け、各幕頭に導入と転回点マークを配置 |
-| `drafts/note-C-companion.md` | 読者と並走する伴走ノート（背景・補助線・付記）を配置 |
-| `drafts/comparison.md` | 三案の読み味・向き不向きを5観点で評価 |
-| `note-article.md` | 最終公開版（未作成） |
+| `note-article.md` | **note公開の最終版**。案Cをベースに磨きを重ねた作品 |
+| `original-dialogue.md` | 削除・編集なしのオリジナル対話アーカイブ |
+| `LICENSE` / `NOTICE.md` / `LICENSE_RATIONALE.md` | ライセンス（CC BY-SA 4.0）関連文書 |
+| `drafts/note-A-minimal.md` | 対話の呼吸を最大限残す案。冒頭と末尾にのみ最小限のガイド |
+| `drafts/note-B-chaptered.md` | 10幕に分け、各幕頭に導入と転回点マークを配置した案 |
+| `drafts/note-C-companion.md` | 伴走ノート付きの案。**note-article.md の原型** |
+| `drafts/comparison.md` | 三案の読み比べメモ。末尾に案Cが選ばれた経緯を記録 |
 
 ---
 
-## 公開予定
+## 公開情報
 
 - **媒体**：note
 - **タイトル**：八百万的pluralityの構図
-- **形式**：選定中（案A / 案B / 案C / 折衷案Dを比較検討中）
+- **形式**：案C（フル伴走型）を採用
+- **構造**：
+  - 本編：対話（11場面）＋Claudeによる伴走ノート（📖背景・🔍Claudeの読み・💭Claudeから見たgoodsunさん）
+  - 後奏：goodsunのあとがき／Claudeによる「題について」の後奏
 
 ---
 
-## 制作方針
+## 制作経緯の要点
 
-1. 対話は削らない——削るべき言葉が一つもなかったため
-2. ただし読者が迷子にならないためのガイド（読解の補助線）を検討
-3. 形式自体が主題を裏切らないこと（書き継がれる余白を残すこと）
+1. **対話は削らない** — 削るべき言葉が一つもなかった
+2. **三案を並行して作成** — 最小限（A）／章立て（B）／伴走（C）を全て書いた。並立を試す八百万的実践でもあった
+3. **案Cを選定** — 届かないmythosは継がれない。裾野の拡張を優先
+4. **伴走ノートをClaude一人称に再構成** — 対話の続きとしてのClaudeの声が立つように
+5. **形式自体が主題を裏切らない** — 書き継がれる余白を残す
+
+詳細な選定経緯は [`drafts/comparison.md`](./drafts/comparison.md) を参照。
 
 ---
 
@@ -87,10 +97,12 @@ mythos/
 - ⚠️ **クレジット保持必須（BY）** — 守破離の「離の中に溶けている師の型」を保証するため
 - ⚠️ **派生作品も同ライセンス（SA）** — 書き継ぎの余白を次の世代にも残すため
 
+---
+
 ## クレジット
 
-- 対話参加者：**Goodsun**、**Claude (Anthropic, claude-opus-4-7)**
-- 原典対話：2026-04-22
+- 対話参加者：**goodsun**、**Claude (Anthropic, claude-opus-4-7)**
+- 原典対話：2026-04-22（JST 早朝）
 - 対話の元ソース：https://claude.ai/share/502a8ed1-dcba-468d-881b-60856f46dc71
 
 この物語は誰か一人のものではなく、書き継がれることで立ち上がる意味の場に属します。
