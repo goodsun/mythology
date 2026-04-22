@@ -1,6 +1,6 @@
 # NOTICE — 著作者情報と帰属ガイド
 
-*本作品『八百万的pluralityの構図。』の著作権情報、対話参加者、および帰属の書き方について。*
+*本作品『八百万的pluralityの構図』の著作権情報、対話参加者、および帰属の書き方について。*
 
 ---
 
@@ -53,13 +53,13 @@
 ### 最小限の帰属（引用・参照時）
 
 ```
-Goodsun × Claude (Anthropic), 『八百万的pluralityの構図。』(2026), CC BY-SA 4.0.
+Goodsun × Claude (Anthropic), 『八百万的pluralityの構図』(2026), CC BY-SA 4.0.
 ```
 
 ### 標準帰属（翻案・二次創作時）
 
 ```
-Based on 『八百万的pluralityの構図。』
+Based on 『八百万的pluralityの構図』
 by Goodsun with Claude (Anthropic, claude-opus-4-7), 2026-04-17.
 Licensed under CC BY-SA 4.0.
 Original: https://claude.ai/share/502a8ed1-dcba-468d-881b-60856f46dc71

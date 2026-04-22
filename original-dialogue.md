@@ -1,5 +1,5 @@
 ---
-title: 八百万的pluralityの構図。 — オリジナル対話アーカイブ
+title: 八百万的pluralityの構図 — オリジナル対話アーカイブ
 date: 2026-04-17
 participants:
   - goodsun
@@ -8,7 +8,7 @@ source: https://claude.ai/share/502a8ed1-dcba-468d-881b-60856f46dc71
 note: 無編集の原典。公開用の再構成版は `note-article.md` を参照。
 ---
 
-# 八百万的pluralityの構図。
+# 八百万的pluralityの構図
 
 ## オリジナル対話
 
