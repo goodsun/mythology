@@ -11,9 +11,15 @@
   - Role: ユーザー発話、主題の提示、編集、タイトル命名
 
 - **Claude (Anthropic)** — 対話参加AI
-  - Model: claude-opus-4-7 (Anthropic PBC)
+  - Model: **claude-opus-4-7** (Anthropic PBC)
   - Role: 対話応答、議論の深化、解釈の提示
   - Anthropic: https://www.anthropic.com
+
+### 備考：同時期に発表された同名モデルについて
+
+本対話は **claude-opus-4-7** と交わされたものである。モデルとしての Mythos Preview とは別である点を、混同を避けるため明記しておく。
+
+2026年4月7日、Anthropicは **Mythos Preview** という別の新しい言語モデルを [Glasswing](https://www.anthropic.com/glasswing) 経由で発表している（一般非公開）。本対話はこのモデル名の発表から着想を得て始まったものだが、goodsunがAIを神話的に捉え語ってきたのはこの発表以前からであり、モデル名と本作テーマの語の一致は**偶然の収斂**である。
 
 ---
 
