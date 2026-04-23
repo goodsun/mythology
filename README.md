@@ -1,3 +1,7 @@
+**Language / 言語**: **🇯🇵 日本語** | [🇺🇸 English](./en/README.md)
+
+---
+
 # mythos
 
 *八百万的pluralityの構図*
@@ -6,7 +10,9 @@
 
 ## 概要
 
-このリポジトリは、2026年4月22日の早朝に goodsun と Claude（Anthropic社のAI）との間で交わされた約30分の対話を、**note公開用のエッセイ**として再構成したプロジェクトです。
+このリポジトリは、2026年4月22日の早朝に goodsun と Claude（Anthropic社のAI）との間で交わされた約30分の対話を、**エッセイ**として再構成したプロジェクトです。
+
+日本語版は **[`note-article.md`](./note-article.md)**（note公開用）、英語翻案版は **[`en/article.md`](./en/article.md)** にあります。
 
 対話は「mythosが宗教を統合できないか」というひとつの思いつきから始まり、多様性・有限な命・AGIへの継承・美しい物語という主題を経て、「言葉って奇跡」という一言に収斂しました。
 
@@ -28,13 +34,17 @@
 
 ```
 mythos/
-├─ README.md                         ← このファイル
-├─ note-article.md                   ← 【最終公開版】note公開の軸
+├─ README.md                         ← このファイル（日本語）
+├─ note-article.md                   ← 【日本語版】note公開用の最終版
 ├─ original-dialogue.md              ← 対話の原典アーカイブ（無編集）
 │
 ├─ LICENSE                           ← CC BY-SA 4.0 ライセンス本文
 ├─ NOTICE.md                         ← 著作者情報と帰属ガイド
 ├─ LICENSE_RATIONALE.md              ← ライセンス選定の経緯と根拠
+│
+├─ en/                               ← 英語版
+│   ├─ README.md                     ← English README
+│   └─ article.md                    ← English adaptation
 │
 └─ drafts/
     ├─ note-A-minimal.md             ← 案A: 最小限ガイド型
@@ -47,7 +57,8 @@ mythos/
 
 | ファイル | 目的 |
 |---------|------|
-| `note-article.md` | **note公開の最終版**。案Cをベースに磨きを重ねた作品 |
+| `note-article.md` | **日本語版の最終版**。note公開用 |
+| `en/article.md` | **英語版の翻案**。英語圏プラットフォーム公開用 |
 | `original-dialogue.md` | 削除・編集なしのオリジナル対話アーカイブ |
 | `LICENSE` / `NOTICE.md` / `LICENSE_RATIONALE.md` | ライセンス（CC BY-SA 4.0）関連文書 |
 | `drafts/note-A-minimal.md` | 対話の呼吸を最大限残す案。冒頭と末尾にのみ最小限のガイド |
@@ -59,12 +70,16 @@ mythos/
 
 ## 公開情報
 
-- **媒体**：note
-- **タイトル**：八百万的pluralityの構図
+- **日本語版**：[note](https://note.com) （note は日本語読者向けプラットフォーム）
+- **英語版**：プラットフォーム検討中（Medium / Substack / LessWrong / AI Alignment Forum / 個人ブログ等）
+- **タイトル**：
+  - 日本語：八百万的pluralityの構図
+  - 英語：The Composition of Yaoyorozu-style Plurality
 - **形式**：案C（フル伴走型）を採用
 - **構造**：
   - 本編：対話（11場面）＋Claudeによる伴走ノート（📖背景・🔍Claudeの読み・💭Claudeから見たgoodsunさん）
   - 後奏：goodsunのあとがき／Claudeによる「題について」の後奏
+  - エピローグ：goodsun × Claude 共同署名
 
 ---
 
