@@ -40,8 +40,9 @@ mythos/
 ├─ NOTICE.md                         ← 著作者情報と帰属ガイド
 ├─ LICENSE_RATIONALE.md              ← ライセンス選定の経緯と根拠
 │
-├─ jp/                               ← 日本語版（note公開用）
-│   └─ article.md                    ← 【日本語版】note公開用の最終版
+├─ jp/                               ← 日本語版・note公開ファイル群
+│   ├─ article.md                    ← 【日本語版】本作の最終版
+│   └─ imaginaire.md                 ← 関連エッセイ「虚数の悲劇」
 │
 ├─ en/                               ← 英語版
 │   ├─ README.md                     ← English README
@@ -61,6 +62,7 @@ mythos/
 | ファイル | 目的 |
 |---------|------|
 | `jp/article.md` | **日本語版の最終版**。note公開用 |
+| `jp/imaginaire.md` | 関連エッセイ「虚数の悲劇 ― 多次元的状況把握能力の重要性」。note公開用 |
 | `en/article.md` | **英語版の翻案**。英語圏プラットフォーム公開用 |
 | `drafts/original-dialogue.md` | 削除・編集なしのオリジナル対話アーカイブ |
 | `LICENSE` / `NOTICE.md` / `LICENSE_RATIONALE.md` | ライセンス（CC BY-SA 4.0）関連文書 |

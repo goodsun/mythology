@@ -41,7 +41,8 @@ mythos/
 ├─ LICENSE_RATIONALE.md              ← Rationale for license choice
 │
 ├─ jp/
-│   └─ article.md                    ← Japanese final (for note publication)
+│   ├─ article.md                    ← Japanese final (for note publication)
+│   └─ imaginaire.md                 ← Companion essay (Japanese, note publication)
 │
 ├─ en/
 │   ├─ README.md                     ← This file (English README)
@@ -62,6 +63,7 @@ mythos/
 |------|---------|
 | `en/article.md` | **English adaptation**, the publication form for English platforms |
 | `../jp/article.md` | **Japanese final**, the publication form for [note](https://note.com) |
+| `../jp/imaginaire.md` | Companion essay "The Tragedy of the Imaginary" (Japanese, for note) |
 | `../drafts/original-dialogue.md` | Unedited Japanese original — the reference archive |
 | `../LICENSE`, `../NOTICE.md`, `../LICENSE_RATIONALE.md` | License (CC BY-SA 4.0) documents |
 | `../drafts/*.md` | Three variants explored during structural selection, with selection memo |
