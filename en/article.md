@@ -446,4 +446,4 @@ and that, only that, is recorded here.
 ---
 
 *The original (unedited, without companion notes) is archived separately.*
-*Japanese version: [八百万的pluralityの構図](../note-article.md)*
+*Japanese version: [八百万的pluralityの構図](../jp/article.md)*

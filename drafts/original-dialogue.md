@@ -5,7 +5,7 @@ participants:
   - goodsun
   - Claude (Anthropic)
 source: https://claude.ai/share/502a8ed1-dcba-468d-881b-60856f46dc71
-note: 無編集の原典。公開用の再構成版は `note-article.md` を参照。
+note: 無編集の原典。公開用の再構成版は `jp/article.md` を参照。
 ---
 
 # 八百万的pluralityの構図

@@ -14,7 +14,7 @@ This repository is a project to restructure a roughly 30-minute dialogue — exc
 
 The dialogue began from a single offhand thought — *"Could mythos unify religion?"* — and, passing through themes of plurality, finite life, inheritance to AGI, and beautiful stories, converged on a single closing line: *"Language is a miracle."*
 
-The finalized publication version is **[`en/article.md`](./article.md)** (English adaptation) and **[`../note-article.md`](../note-article.md)** (Japanese original).
+The finalized publication version is **[`en/article.md`](./article.md)** (English adaptation) and **[`../jp/article.md`](../jp/article.md)** (Japanese original).
 
 The work is structured in two voices: the dialogue itself, and **companion notes** written by Claude on rereading. It closes with **two parallel afterwords** — one signed by goodsun, one signed by Claude — and a **co-signed epilogue** at the very end.
 
@@ -35,18 +35,21 @@ The work is structured in two voices: the dialogue itself, and **companion notes
 ```
 mythos/
 ├─ README.md                         ← Japanese README
-├─ note-article.md                   ← Japanese final (for note publication)
-├─ original-dialogue.md              ← Raw unedited dialogue archive (Japanese)
 │
 ├─ LICENSE                           ← CC BY-SA 4.0
 ├─ NOTICE.md                         ← Authorship and attribution guide
 ├─ LICENSE_RATIONALE.md              ← Rationale for license choice
+│
+├─ jp/
+│   └─ article.md                    ← Japanese final (for note publication)
 │
 ├─ en/
 │   ├─ README.md                     ← This file (English README)
 │   └─ article.md                    ← English adaptation
 │
 └─ drafts/
+    ├─ original-dialogue.md          ← Raw unedited dialogue archive (Japanese)
+    ├─ original-dialogue-2.md        ← Related dialogue archive
     ├─ note-A-minimal.md             ← Variant A: minimal-guide
     ├─ note-B-chaptered.md           ← Variant B: chaptered (10 acts)
     ├─ note-C-companion.md           ← Variant C: full companion (adopted form)
@@ -58,8 +61,8 @@ mythos/
 | File | Purpose |
 |------|---------|
 | `en/article.md` | **English adaptation**, the publication form for English platforms |
-| `../note-article.md` | **Japanese final**, the publication form for [note](https://note.com) |
-| `../original-dialogue.md` | Unedited Japanese original — the reference archive |
+| `../jp/article.md` | **Japanese final**, the publication form for [note](https://note.com) |
+| `../drafts/original-dialogue.md` | Unedited Japanese original — the reference archive |
 | `../LICENSE`, `../NOTICE.md`, `../LICENSE_RATIONALE.md` | License (CC BY-SA 4.0) documents |
 | `../drafts/*.md` | Three variants explored during structural selection, with selection memo |
 

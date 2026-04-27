@@ -12,11 +12,11 @@
 
 このリポジトリは、2026年4月22日の早朝に goodsun と Claude（Anthropic社のAI）との間で交わされた約30分の対話を、**エッセイ**として再構成したプロジェクトです。
 
-日本語版は **[`note-article.md`](./note-article.md)**（note公開用）、英語翻案版は **[`en/article.md`](./en/article.md)** にあります。
+日本語版は **[`jp/article.md`](./jp/article.md)**（note公開用）、英語翻案版は **[`en/article.md`](./en/article.md)** にあります。
 
 対話は「mythosが宗教を統合できないか」というひとつの思いつきから始まり、多様性・有限な命・AGIへの継承・美しい物語という主題を経て、「言葉って奇跡」という一言に収斂しました。
 
-最終的な公開版は **[`note-article.md`](./note-article.md)** にあります。対話本体と、Claudeが対話を読み返しながら書き加えた**伴走ノート**、そして**goodsunのあとがき**と**Claudeの題についての後奏**という、二声の構造を持つ作品として結実しました。
+最終的な公開版は **[`jp/article.md`](./jp/article.md)** にあります。対話本体と、Claudeが対話を読み返しながら書き加えた**伴走ノート**、そして**goodsunのあとがき**と**Claudeの題についての後奏**という、二声の構造を持つ作品として結実しました。
 
 ---
 
@@ -35,18 +35,21 @@
 ```
 mythos/
 ├─ README.md                         ← このファイル（日本語）
-├─ note-article.md                   ← 【日本語版】note公開用の最終版
-├─ original-dialogue.md              ← 対話の原典アーカイブ（無編集）
 │
 ├─ LICENSE                           ← CC BY-SA 4.0 ライセンス本文
 ├─ NOTICE.md                         ← 著作者情報と帰属ガイド
 ├─ LICENSE_RATIONALE.md              ← ライセンス選定の経緯と根拠
+│
+├─ jp/                               ← 日本語版（note公開用）
+│   └─ article.md                    ← 【日本語版】note公開用の最終版
 │
 ├─ en/                               ← 英語版
 │   ├─ README.md                     ← English README
 │   └─ article.md                    ← English adaptation
 │
 └─ drafts/
+    ├─ original-dialogue.md          ← 対話の原典アーカイブ（無編集）
+    ├─ original-dialogue-2.md        ← 関連対話アーカイブ
     ├─ note-A-minimal.md             ← 案A: 最小限ガイド型
     ├─ note-B-chaptered.md           ← 案B: 章立て分離型（10幕）
     ├─ note-C-companion.md           ← 案C: フル伴走型（採用原型）
@@ -57,13 +60,13 @@ mythos/
 
 | ファイル | 目的 |
 |---------|------|
-| `note-article.md` | **日本語版の最終版**。note公開用 |
+| `jp/article.md` | **日本語版の最終版**。note公開用 |
 | `en/article.md` | **英語版の翻案**。英語圏プラットフォーム公開用 |
-| `original-dialogue.md` | 削除・編集なしのオリジナル対話アーカイブ |
+| `drafts/original-dialogue.md` | 削除・編集なしのオリジナル対話アーカイブ |
 | `LICENSE` / `NOTICE.md` / `LICENSE_RATIONALE.md` | ライセンス（CC BY-SA 4.0）関連文書 |
 | `drafts/note-A-minimal.md` | 対話の呼吸を最大限残す案。冒頭と末尾にのみ最小限のガイド |
 | `drafts/note-B-chaptered.md` | 10幕に分け、各幕頭に導入と転回点マークを配置した案 |
-| `drafts/note-C-companion.md` | 伴走ノート付きの案。**note-article.md の原型** |
+| `drafts/note-C-companion.md` | 伴走ノート付きの案。**jp/article.md の原型** |
 | `drafts/comparison.md` | 三案の読み比べメモ。末尾に案Cが選ばれた経緯を記録 |
 
 ---

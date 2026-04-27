@@ -38,7 +38,7 @@
 - **対話日**：2026年4月22日（水）08:06 – 08:40（JST）
 - **媒体**：claude.ai
 - **原典URL**：https://claude.ai/share/502a8ed1-dcba-468d-881b-60856f46dc71
-- **アーカイブ**：[`original-dialogue.md`](./original-dialogue.md)
+- **アーカイブ**：[`drafts/original-dialogue.md`](./drafts/original-dialogue.md)
 
 ---
 
